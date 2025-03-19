@@ -1,6 +1,6 @@
 # 🎮 Random Steam Wishlist Game Picker  
 
-🎲 Pick a random game from your **Steam wishlist** instantly! No need to install anything—just enter your Steam profile or wishlist URL, and the app will fetch a random game for you.  
+🎲 Instantly pick a random game from your Steam wishlist—no installation required! Simply enter your Steam profile or wishlist URL, and the app will retrieve a random game for you. No Steam login is needed. Be cautious of other versions that require login, as they may be scams.
 
 🔥 **Try it live:**  
 [![Open in Hugging Face](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/Midplayz/RandomSteamWLGame)  
@@ -12,7 +12,13 @@
 ✔️ **Works with both Steam profiles & wishlist URLs**  
 ✔️ **Randomly selects a game for you**  
 ✔️ **Provides a direct Steam store link**  
-✔️ **No installation required, runs in your browser!**  
+✔️ **No installation or login required, runs in your browser!**  
+
+---
+
+## ⚠️ Known issues (I might fix these if this gains enough traction)
+❌ **It also fetches unreleased and delisted games from your wishlist**  
+❌ **You can only fetch one game at a time**
 
 ---
 
@@ -34,3 +40,8 @@ Want to run the script on your own system?
    ```sh
    git clone https://github.com/YOUR_GITHUB_USERNAME/RandomSteamWLGame.git
    cd RandomSteamWLGame
+2. Create a Python Environment and install requests module as follows:
+   ```sh
+   pip install requests
+3. Once that's done, replace the Steam API key in the code with your API key which you can get from https://steamcommunity.com/dev/apikey
+4. You're all done, you just need to run the script now!
