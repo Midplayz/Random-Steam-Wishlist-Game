@@ -4,6 +4,7 @@
 
 🔥 **Try it live:**  
 [![Open in Hugging Face](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/Midplayz/RandomSteamWLGame)  
+**Note:** This no longer works as I revoked my Steam API Key. Someone used it to access my Steam Account although I hid it. Apologies!
 
 ---
 
